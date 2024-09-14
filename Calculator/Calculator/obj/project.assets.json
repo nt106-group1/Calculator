@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\code\\Calculator\\Calculator\\Calculator.csproj",
+      "projectUniqueName": "D:\\code\\repos\\Calculator\\Calculator\\Calculator.csproj",
       "projectName": "Calculator",
-      "projectPath": "D:\\code\\Calculator\\Calculator\\Calculator.csproj",
+      "projectPath": "D:\\code\\repos\\Calculator\\Calculator\\Calculator.csproj",
       "packagesPath": "C:\\Users\\Khoa\\.nuget\\packages\\",
-      "outputPath": "D:\\code\\Calculator\\Calculator\\obj\\",
+      "outputPath": "D:\\code\\repos\\Calculator\\Calculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
