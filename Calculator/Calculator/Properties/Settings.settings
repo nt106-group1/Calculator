@@ -6,10 +6,10 @@
       <Value Profile="(Default)">300, 300</Value>
     </Setting>
     <Setting Name="Height" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">450</Value>
+      <Value Profile="(Default)">350</Value>
     </Setting>
     <Setting Name="Width" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">450</Value>
+      <Value Profile="(Default)">400</Value>
     </Setting>
   </Settings>
 </SettingsFile>

@@ -37,7 +37,7 @@ namespace Calculator.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("450")]
+        [global::System.Configuration.DefaultSettingValueAttribute("350")]
         public int Height {
             get {
                 return ((int)(this["Height"]));
@@ -49,7 +49,7 @@ namespace Calculator.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("450")]
+        [global::System.Configuration.DefaultSettingValueAttribute("400")]
         public int Width {
             get {
                 return ((int)(this["Width"]));
