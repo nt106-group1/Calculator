@@ -34,29 +34,5 @@ namespace Calculator.Properties {
                 this["Location"] = value;
             }
         }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("350")]
-        public int Height {
-            get {
-                return ((int)(this["Height"]));
-            }
-            set {
-                this["Height"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("400")]
-        public int Width {
-            get {
-                return ((int)(this["Width"]));
-            }
-            set {
-                this["Width"] = value;
-            }
-        }
     }
 }

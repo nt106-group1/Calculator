@@ -49,6 +49,7 @@
             button19 = new Button();
             hienthi2 = new TextBox();
             hienthi1 = new TextBox();
+            button16 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -173,9 +174,9 @@
             // 
             // button13
             // 
-            button13.Location = new Point(290, 262);
+            button13.Location = new Point(290, 312);
             button13.Name = "button13";
-            button13.Size = new Size(63, 94);
+            button13.Size = new Size(63, 44);
             button13.TabIndex = 15;
             button13.Text = "=";
             button13.UseVisualStyleBackColor = true;
@@ -252,11 +253,22 @@
             hienthi1.TabIndex = 22;
             hienthi1.TextAlign = HorizontalAlignment.Right;
             // 
+            // button16
+            // 
+            button16.Location = new Point(290, 262);
+            button16.Name = "button16";
+            button16.Size = new Size(63, 44);
+            button16.TabIndex = 23;
+            button16.Text = "mod";
+            button16.UseVisualStyleBackColor = true;
+            button16.Click += button16_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(370, 370);
+            Controls.Add(button16);
             Controls.Add(hienthi1);
             Controls.Add(hienthi2);
             Controls.Add(button17);
@@ -308,5 +320,6 @@
         private Button button19;
         private TextBox hienthi2;
         private TextBox hienthi1;
+        private Button button16;
     }
 }

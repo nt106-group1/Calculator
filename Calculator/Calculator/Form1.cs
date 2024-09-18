@@ -5,15 +5,13 @@ namespace Calculator
         private void SaveSetting()
         {
             Properties.Settings.Default.Location = this.Location;
-            Properties.Settings.Default.Height = this.Height;
-            Properties.Settings.Default.Width = this.Width;
+
             Properties.Settings.Default.Save();
         }
         private void LoadSetting()
         {
             this.Location = Properties.Settings.Default.Location;
-            this.Height = Properties.Settings.Default.Height;
-            this.Width = Properties.Settings.Default.Width;
+
 
         }
         public Form1()
@@ -127,6 +125,12 @@ namespace Calculator
                     hienthi1.Text = data2.ToString();
                 }
             }
+            if (pheptinh == "mod")
+            {
+                data2 = data1 % float.Parse(hienthi1.Text);
+                hienthi2.Text = data1.ToString() + " % " + float.Parse(hienthi1.Text) + " = ";
+                hienthi1.Text = data2.ToString();
+            }
 
         }
 
@@ -176,6 +180,14 @@ namespace Calculator
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
             SaveSetting();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            pheptinh = "mod";
+            data1 = float.Parse(hienthi1.Text);
+            hienthi1.Clear();
+
         }
     }
 }
